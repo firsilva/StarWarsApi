@@ -25,21 +25,6 @@ namespace StarWarsApi
             foreach (var p in planetas.results)
             {
                 Console.WriteLine($"{p.name} rotation {p.diameter}");
-
-                /*Console.WriteLine("Qual a Pesquisa?");
-                //var query = Console.ReadLine();
-                var endereco = ("https://www.google.com.br/search?q=" + $"{p.name}");
-                //var endereco = ("https://www.google.com.br/search?q=" + query);
-                //Process.Start("https://www.google.com.br/search?q=" + query);
-
-                var recebe = client2.DownloadString(endereco);
-                Console.WriteLine(recebe);
-
-                string nomeArquivo = @"C:\GitHub\TesteVS2017\log - " + DateTime.Now.ToString("yyyyMMddHHmmss") + ".txt";
-                StreamWriter writer = new StreamWriter(nomeArquivo);
-                writer.WriteLine(recebe);
-                
-                writer.Close();*/
             }
 
             Console.ReadLine();
